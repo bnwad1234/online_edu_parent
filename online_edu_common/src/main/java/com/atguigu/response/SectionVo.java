@@ -1,0 +1,17 @@
+package com.atguigu.response;
+
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+
+@Data
+public class SectionVo {
+    @ApiModelProperty(value = "小节ID")
+    private String id;
+
+    @ApiModelProperty(value = "节点名称")
+    private String title;
+
+    @ApiModelProperty(value = "视频id")
+    private String videoSourceId;
+
+}
